@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', poppins;
+    background: black;
+    color:blanchedalmond;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.logos {
+    /* margin-top: 10px; */
+    padding-top: 4px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    /* position: fixed; */
+    /* z-index: 1; */
+}
+
+.logos .title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;    
+}
+
+.logos img {
+    /* display: flex; */
+    /* max-width: 15%;
+    max-height: 15%; */
+    
+    /* width: 10%;
+    height: 10%; */
+    /* max-width: 10%;
+    min-width: 5%; */
+    /* width: 200px;
+    height: auto; */
+    
+    /* width: 20%;
+    height: 20%; */
+    padding: 0px;
+    margin: 20px;
+}
+
+.logos .hm {
+    width: 150px;
+    height: auto;
+}
+
+.logos .mucdai {
+    width: 250px;
+    height: auto;
+}
+
+.gallery{
+    /* margin-top: 10px; */
+    /* background: lightblue; */
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gallery .grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery .grid .img-button {
+    /* justify-content: center; */
+    position: relative;
+    cursor: pointer;
+}
+
+.gallery .grid .team-nr {
+    visibility: visible;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    /* bottom: 0; */
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.gallery .grid .img-button:hover .team-nr {
+    visibility: hidden;
+    /* background: rgba(0, 0, 0, 0.0); */
+}
+
+.gallery .grid .img-button .description {
+    visibility: hidden;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    /* padding: 20px; */
+}
+
+.gallery .grid .img-button:hover .description {
+    visibility: visible;
+}
+
+.gallery .grid .img-button img {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+/* .gallery .grid .img-button img {
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+} */
+
+
+.footer {
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    flex-direction: row;    
+    bottom:0;
+    width:100%;
+    /* height: 100%;
+    height:40px;  */
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer .impressum {
+    color: blanchedalmond;
+    cursor: pointer;
+    font-size: 11px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border: blanchedalmond solid 2px;
+    border-radius: 15px;
+    /* padding: 200px; */
+    width: 150px;
+    align-self: flex-start;
+
+    
+}
+
+.footer .impressum:hover {
+    background: blanchedalmond;
+    color: black;
+}
+
+
+
+
